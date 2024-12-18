@@ -99,6 +99,9 @@ a {
     background-color: #1e3932;
     margin: 20px;
 }
+.cards-container:nth-child(3) {
+    background-color: #0044b4; /* Rojo */
+}
 
 .card {
     border-radius: 8px;
@@ -122,7 +125,7 @@ a {
     text-align: center;
     justify-content: center;
     color: #fff;
-    font-size: 1.8em;
+    font-size: 1.5em;
     position: relative;
     line-height: 2rem;
     padding: 60px;
@@ -132,8 +135,11 @@ a {
 .card-content h3 {
     margin-bottom: 3rem;
     font-weight: 900;
-    font-size: 2.5rem;
+    font-size: 2.02rem;
     letter-spacing: -0.8px;
+} 
+.cards-container .blue h3 {
+    font-size: 2.02rem;
 }
 .p-s{
    margin-bottom: 3rem;
