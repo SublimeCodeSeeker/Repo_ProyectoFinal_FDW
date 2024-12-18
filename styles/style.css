@@ -102,6 +102,9 @@ a {
 .cards-container:nth-child(3) {
     background-color: #0044b4; /* Rojo */
 }
+.cards-container:nth-child(4) {
+    background-color: #D50032;
+}
 
 .card {
     border-radius: 8px;
@@ -127,7 +130,7 @@ a {
     color: #fff;
     font-size: 1.5em;
     position: relative;
-    line-height: 2rem;
+    line-height: 2.5rem;
     padding: 60px;
     letter-spacing: -0.2px;
 }
