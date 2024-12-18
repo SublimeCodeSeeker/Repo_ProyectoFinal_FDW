@@ -97,7 +97,9 @@ a {
     width: auto;
     margin: 0 auto;
     background-color: #1e3932;
-    margin: 20px;
+    margin: 3.75rem;
+    margin-bottom: 1.8rem;
+    margin-top: 0;
 }
 .cards-container:nth-child(3) {
     background-color: #0044b4; /* Rojo */
@@ -105,7 +107,9 @@ a {
 .cards-container:nth-child(4) {
     background-color: #D50032;
 }
-
+.cards-container:nth-child(6) {
+    background-color: #D50032;
+}
 .card {
     border-radius: 8px;
     overflow: hidden;
@@ -137,7 +141,7 @@ a {
 
 .card-content h3 {
     margin-bottom: 3rem;
-    font-weight: 900;
+    font-weight: 780;
     font-size: 2.02rem;
     letter-spacing: -0.8px;
 } 
@@ -145,5 +149,21 @@ a {
     font-size: 2.02rem;
 }
 .p-s{
-   margin-bottom: 3rem;
+    margin-bottom: 3rem;
+}
+
+.card-content a.highlight {
+    color: white;
+    padding: 4px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+    border: 2px solid;
+    font-size: 1.5rem;
+}
+
+.last .p-s {
+    margin-bottom: 2rem;
+}
+.last a.highlight:hover {
+    background-color: rgba(255, 255, 255, 0.15);
 }
